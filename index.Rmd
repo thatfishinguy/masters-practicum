@@ -1,0 +1,15 @@
+---
+title: "Mental Health in Creative Teams"
+---
+
+This is a website dedicated to the practicum research completed by Nathan McCoy and Dr. Rodney Bowden during the summer of 2023 regarding the mental health status of collegiate creative teams in the Big 12.  
+
+I have been a student photographer with the Baylor Athletics creative team for nearly 6 years now, working with numerous different graphic designers, videographers, photographers and other creatives in collegiate sports. It has been one of the most influential experiences of my undergraduate and graduate schooling and I have made friends and colleges that I will keep for life. However, having been in this creative department for so long, I have noticed a very high rate of burnout and a high rate of mental health drain. I have seen numerous people have to quit their jobs, seek mental health help and sometimes even leave the creative industry as a whole.  
+
+Being a student of public health, I have been curious about the impact of these mental health struggles and some of the potential causes of this strain on mental health. Without research into the issue, there is little incentive or evidence to create public health interventions to combat these issues and lessen the mental health strain on these individuals.  
+
+Each of the tabs on this website goes through background information on previous research into burnout, development of the survey, and data from the survey collected.  
+
+I wanted to use this practicum as a way of creating a means of exploring using R in an epidemiological standpoint, while also researching, developing a survey, distributing the survey and analyzing the data that I collect. I hope you enjoy reading this project as much as I enjoyed the learning process and the outcomes of this study. 
+
+![](/Users/nathanmccoy/Documents/MPH/Practicum 2023/masters-practicum/baylor_creative.png) 

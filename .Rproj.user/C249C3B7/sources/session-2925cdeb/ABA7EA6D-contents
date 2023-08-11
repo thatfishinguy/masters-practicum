@@ -1,0 +1,18 @@
+name: "Nathan McCoy"
+navbar:
+  title: "Mental Health in Creative Communities"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Introduction"
+      href: about.html
+    - text: "Literature Review"
+      href: literature_review.html
+    - text: "Survey Review"
+      href: survey_methods.html
+    - text: "Survey Delivery"
+      href: survey_distribution.html
+    - text: "Results"
+      href: results.html
+output: 
+  html_document:

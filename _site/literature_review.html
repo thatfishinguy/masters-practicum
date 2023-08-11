@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Literature Review</title>
+
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Mental Health in Creative Communities</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">Introduction</a>
+</li>
+<li>
+  <a href="literature_review.html">Literature Review</a>
+</li>
+<li>
+  <a href="survey_methods.html">Survey Review</a>
+</li>
+<li>
+  <a href="survey_distribution.html">Survey Delivery</a>
+</li>
+<li>
+  <a href="results.html">Results</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Literature Review</h1>
+
+</div>
+
+
+<div id="previous-research-into-burnout" class="section level2">
+<h2>Previous Research Into Burnout</h2>
+<p>This section of research will be a literature review over the
+previous published research into burnout in a variety of sectors in our
+society. It will focus on the methods of each of the published papers
+and finding from these papers.</p>
+</div>
+<div id="physician-burnout." class="section level2">
+<h2>Physician Burnout.</h2>
+<p>Physician burnout has been at the center of burnout research for
+decades because of the crucial role these people play in the health and
+safety of society. With more and more physicians leaving the workforce
+because of mental health issues and burnout, a large part of the
+published studies have been done in this population, especially since
+the COVID-19 pandemic.</p>
+<p>In a study done during the COVID-19 pandemic, junior and senior
+doctors in Australia were surveyed during the second wave of SARS-CoV-2
+pandemic in Australia to assess the prevalence of mental health issues,
+coping strategies and help-seeking behaviors. Demographics, (such as
+age, sex, state, organization type, household descriptions), mental
+health status and various methods of coping strategies were all
+collected by a voluntary survey found on covid-19-frontline.com.au.</p>
+<p>The data covered by this survey indicated increased mental health
+symptoms being significantly higher than previous studies, especially in
+junior doctors. This data coupled with low engagement with help-seeking
+services were areas of concern in this study. Some of the most common
+coping strategies described in the study included physical exercise,
+leaning on social support and alcohol consumption. Increased alcohol
+consumption due to increased mental health strain and burnout is a major
+concern because of the detrimental health effects this can have on this
+important sector of the population.</p>
+<p>Some of the limitations of this study included women being
+overrepresented in the study, the inability for calculation of response
+rate and limited coping strategies as options (where the free-text input
+was not utlizied extensively) which could lead to other coping
+strategies not being adequately represented.</p>
+<p>Another study done in the United States on Emergency Medicine
+physicians looked into the impact the COVID-19 pandemic, resource
+availability and institutional support had on well being, burnout and
+job satisfaction. With the amount of stress and psychological burden
+inherent in the job of emergency medicine, the stress of a novel
+respirtory pandemic coupled with staffing and resource concerns,
+emergency medicine physicians have been a major focus of burnout and
+wellbeing studies. In this study, an online 18-item survey was
+administered to emergency medicine physicians to determine the
+psychological and emotional status of these individuals.</p>
+<p>The survey data showed that 75% of the physicians surveyed reported
+increased mental health strain and burnout since the start of the
+pandemic. The data did also point to there being no adequate
+professional counseling and support for themselves and their peers which
+has led to lower job satisfaction. Physicians reporting higher job
+satisfaction also reported there were adequate professional
+psychological resources.</p>
+<p>The study however pointed out limiations to the study including a low
+18.7% response rate and may contribute to some non-repsonse bias, citing
+potential workload being a barrier to completing the survey. The authors
+also pointed out that this survey was sent right after a peak in US
+COVID-19 incidence which could have some effect on institutional
+resources and support.</p>
+</div>
+<div id="parental-burnout." class="section level2">
+<h2>Parental Burnout.</h2>
+<p>Parental burnout is another very important area of study because of
+the importance of their wellbeing in caring for the next generation of
+humanity. There have been several studies done to assess the mental
+health status of parents that are relevant to the study of mental health
+and burnout in other sectors of the population.</p>
+<p>One study done between Ireland, Norway, Switzerland, the Netherlands
+and the UK was done to assess the depressive symptoms, anxiety and
+stress and women’s demographics, health and reproductive
+characteristics. This study was done through the use of the Edinburgh
+Depression scale, the Generalized Anxiety Disorder seven-item scale
+(GAD-7) and the percieved stress scale.</p>
+<p>Researchers were able to analyze the data and look into risk factors
+that were associated with poor mental health status including having an
+unplanned pregnancy, having a chronic mental illness, a chronic somatic
+illness in the postpartum period, smoking and living in the UK or
+Ireland.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

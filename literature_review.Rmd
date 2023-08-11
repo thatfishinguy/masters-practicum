@@ -1,0 +1,32 @@
+---
+title: "Literature Review"
+output: html_document
+---
+
+## Previous Research Into Burnout   
+
+This section of research will be a literature review over the previous published research into burnout in a variety of sectors in our society. It will focus on the methods of each of the published papers and finding from these papers.  
+
+## Physician Burnout. 
+
+Physician burnout has been at the center of burnout research for decades because of the crucial role these people play in the health and safety of society. With more and more physicians leaving the workforce because of mental health issues and burnout, a large part of the published studies have been done in this population, especially since the COVID-19 pandemic. 
+
+In a study done during the COVID-19 pandemic, junior and senior doctors in Australia were surveyed during the second wave of SARS-CoV-2 pandemic in Australia to assess the prevalence of mental health issues, coping strategies and help-seeking behaviors. Demographics, (such as age, sex, state, organization type, household descriptions), mental health status and various methods of coping strategies were all collected by a voluntary survey found on covid-19-frontline.com.au.  
+
+The data covered by this survey indicated increased mental health symptoms being significantly higher than previous studies, especially in junior doctors. This data coupled with low engagement with help-seeking services were areas of concern in this study. Some of the most common coping strategies described in the study included physical exercise, leaning on social support and alcohol consumption. Increased alcohol consumption due to increased mental health strain and burnout is a major concern because of the detrimental health effects this can have on this important sector of the population.   
+
+Some of the limitations of this study included women being overrepresented in the study, the inability for calculation of response rate and limited coping strategies as options (where the free-text input was not utlizied extensively) which could lead to other coping strategies not being adequately represented.  
+
+Another study done in the United States on Emergency Medicine physicians looked into the impact the COVID-19 pandemic, resource availability and institutional support had on well being, burnout and job satisfaction. With the amount of stress and psychological burden inherent in the job of emergency medicine, the stress of a novel respirtory pandemic coupled with staffing and resource concerns, emergency medicine physicians have been a major focus of burnout and wellbeing studies. In this study, an online 18-item survey was administered to emergency medicine physicians to determine the psychological and emotional status of these individuals.  
+
+The survey data showed that 75% of the physicians surveyed reported increased mental health strain and burnout since the start of the pandemic. The data did also point to there being no adequate professional counseling and support for themselves and their peers which has led to lower job satisfaction. Physicians reporting higher job satisfaction also reported there were adequate professional psychological resources.  
+
+The study however pointed out limiations to the study including a low 18.7% response rate and may contribute to some non-repsonse bias, citing potential workload being a barrier to completing the survey. The authors also pointed out that this survey was sent right after a peak in US COVID-19 incidence which could have some effect on institutional resources and support.  
+
+## Parental Burnout. 
+
+Parental burnout is another very important area of study because of the importance of their wellbeing in caring for the next generation of humanity. There have been several studies done to assess the mental health status of parents that are relevant to the study of mental health and burnout in other sectors of the population.  
+
+One study done between Ireland, Norway, Switzerland, the Netherlands and the UK was done to assess the depressive symptoms, anxiety and stress and women's demographics, health and reproductive characteristics. This study was done through the use of the Edinburgh Depression scale, the Generalized Anxiety Disorder seven-item scale (GAD-7) and the percieved stress scale.  
+
+Researchers were able to analyze the data and look into risk factors that were associated with poor mental health status including having an unplanned pregnancy, having a chronic mental illness, a chronic somatic illness in the postpartum period, smoking and living in the UK or Ireland.  
