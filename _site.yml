@@ -16,3 +16,4 @@ navbar:
       href: results.html
 output: 
   html_document:
+output_dir: "."
