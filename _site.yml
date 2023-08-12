@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Efolio"
+      href: efolio.html
     - text: "Introduction"
       href: about.html
     - text: "Literature Review"
