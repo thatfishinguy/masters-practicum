@@ -5,7 +5,7 @@ output: html_document
 
 ### Surveying Burnout  
 
-There are a variety of valid and reliable instruments to measure burnout as described by the [National Academy of Medicine](https://nam.edu/valid-reliable-survey-instruments-measure-burnout-well-work-related-dimensions/). Below is a description of a variety of survey methods that have been researched for different purposes.  
+There are a variety of valid and reliable instruments to measure burnout as described by the [National Academy of Medicine](https://nam.edu/valid-reliable-survey-instruments-measure-burnout-well-work-related-dimensions/). Below is a description of a variety of survey methods that have been researched for different purposes. This culmination of multiple surveys is chose the best survey for the purpose of gathering data from this specific community.   
 
 ## Maslach Burnout Inventory   
 
@@ -21,4 +21,11 @@ This survey method cost no money and the instrument is publicly available for us
 
 ## Copenhagen Burnout Inventory  
 
-The purpose of 
+The purpose of the Copenhagen Burnout Inventory is to aimed at gathering data regarding 3 areas: personal (degree of physical and psychological fatigue and exhaustion), work (degree of physical and psychological fatigue and exhaustion related to work), and client-related (or a similar term such as patient, student, etc.) burnout.  
+
+This 19-item survey is broken down into these three groups: 
+* Overall physical and psychological fatigue: 6 items. 
+* Physical and psychological fatigue related to work: 7 items. 
+* Client-related burnout: 6 items. 
+
+This survey is free for public use. 

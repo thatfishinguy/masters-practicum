@@ -3,7 +3,7 @@
     "path": "~/Documents/MPH/Practicum 2023/masters-practicum/results.Rmd",
     "project_path": "results.Rmd",
     "type": "r_markdown",
-    "hash": "2427958636",
+    "hash": "361847972",
     "contents": "",
     "dirty": false,
     "created": 1691729073768.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,140",
+        "cursorPosition": "5,129",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1691729163,
+    "lastKnownWriteTime": 1692415763,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1691729163948,
+    "last_content_update": 1692415763229,
     "read_only": false,
     "read_only_alternatives": []
 }

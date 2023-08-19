@@ -2,6 +2,8 @@
 title: "The Survey"
 ---
 
+The validated survey chosen to be the building block of the survey was the Oldenburg Burnout Inventory for the ease of analyzing the data and the length of the survey questions to adhere to the busy schedule these individuals normally follow. The demographics collected at the begining of the survey were vetted by members of the Baylor Athletics Creative Team to ensure that any potenital risk factors could be identified in the subsequent data analysis.    
+
 Here are the images of the survey questions as distributed to the participants.   
 
 ![](/Users/nathanmccoy/Documents/MPH/Practicum 2023/masters-practicum/survey_1.png) 
